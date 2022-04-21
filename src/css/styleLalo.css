@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap');
+
+body{
+    font-family: "Vazirmatn",sans-serif;
+    box-sizing: border-box;
+}
+
+.main1{
+    background-color: black;
+}
+
+.main2{
+    border: 2px solid darkblue;
+    background-color: white;
+}
+header{
+    width: 100%;
+    background-color: white;
+}
+
+
+body{
+    background-color: black;
+}
+
+
+#hello{
+    position: relative;
+    width: 100%;
+    /*border: 4px solid rebeccapurple;*/
+    height: 750px;
+}
+
+
+.info{
+    position: absolute;
+    left: 0;
+    width: 55%;
+    /*border: 1px solid blue;*/
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+h1{
+    /*border: 2px solid fuchsia;*/
+    margin: 100px 0px;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    font-size: 54px;
+    line-height: 54px;
+}
+h2{
+    font-size: 1px;
+    font-size: 20px;
+    width: 90%;
+    line-height: 20px;
+}
+
+
+.alemasina{
+    position: absolute;
+    left: 55%;
+    /*border: 1px solid red;*/
+    background: url("../img/coach.jpg") 0% 0%/100% 100% no-repeat;
+    height: 100%;
+    width: 45%;
+}
+
+.alemasina::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background: rgba(0,0,0,0.2);
+}
+
+
+.comments{
+    width: 100%;
+    background-color: white;
+    height: 200px;
+}
+
+.nav{
+    transition:all 1s ease;
+}
+
+
+.nav:hover
+{
+    background-color: red;
+    color: white;
+}
+
+
+.nav:active
+{
+    background-color: #cc0000;
+    color: white;
+}
+#suka{
+    color: white;
+}
+.Dialog > button{
+    border-radius: 1em;
+    width: 50%;
+    align-self: center;
+    background-color: red;
+    height: 50px;
+}
+.Dialog{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.alemo{
+    border: 1px solid white;
+    height: 65px;
+    display: flex;
+    background-color: white;
+    justify-content:space-between;
+    font-weight:bold;
+
+}
+
+
+.nav{
+    border: 1px solid white;
+    width: 25%;
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.container{
+    position: relative;
+    max-width: 1167px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
