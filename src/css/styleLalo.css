@@ -3,35 +3,54 @@
 body{
     font-family: "Vazirmatn",sans-serif;
     box-sizing: border-box;
-}
 
-.main1{
-    background-color: black;
 }
+.container{
+    position: relative;
+    max-width: 1167px;
+    padding: 0 15px;
+    margin: 0 auto;
 
-.main2{
-    border: 2px solid darkblue;
-    background-color: white;
 }
 header{
     width: 100%;
     background-color: white;
 }
-
-
-body{
+.nav{
+    border: 1px solid white;
+    width: 25%;
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav{
+    transition:all 1s ease;
+}
+.nav:hover
+{
+    background-color: red;
+    color: white;
+}
+.nav:active
+{
+    background-color: #cc0000;
+    color: white;
+}
+.main1{
     background-color: black;
 }
-
-
+.main2{
+    background-color: white;
+}
 #hello{
     position: relative;
     width: 100%;
     /*border: 4px solid rebeccapurple;*/
     height: 750px;
 }
-
-
 .info{
     position: absolute;
     left: 0;
@@ -41,7 +60,6 @@ body{
     color: white;
     height: 100%;
 }
-
 h1{
     /*border: 2px solid fuchsia;*/
     margin: 100px 0px;
@@ -56,8 +74,6 @@ h2{
     width: 90%;
     line-height: 20px;
 }
-
-
 .alemasina{
     position: absolute;
     left: 55%;
@@ -66,7 +82,6 @@ h2{
     height: 100%;
     width: 45%;
 }
-
 .alemasina::after{
     content: "";
     position: absolute;
@@ -74,36 +89,7 @@ h2{
     bottom: 0;
     right: 0;
     left: 0;
-
     background: rgba(0,0,0,0.2);
-}
-
-
-.comments{
-    width: 100%;
-    background-color: white;
-    height: 200px;
-}
-
-.nav{
-    transition:all 1s ease;
-}
-
-
-.nav:hover
-{
-    background-color: red;
-    color: white;
-}
-
-
-.nav:active
-{
-    background-color: #cc0000;
-    color: white;
-}
-#suka{
-    color: white;
 }
 .Dialog > button{
     border-radius: 1em;
@@ -111,13 +97,21 @@ h2{
     align-self: center;
     background-color: red;
     height: 50px;
+    transform: scale(1);
+    transition: all 1s ease;
 }
+#suka{
+    color: white;
+    text-transform: uppercase;
+}
+.Dialog > button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 23px 0px rgba(0, 144, 255, 1);}
 .Dialog{
     margin-top: 10%;
     display: flex;
     justify-content: center;
 }
-
 .alemo{
     border: 1px solid white;
     height: 65px;
@@ -127,24 +121,47 @@ h2{
     font-weight:bold;
 
 }
-
-
-.nav{
-    border: 1px solid white;
-    width: 25%;
-    text-decoration: none;
-    color: black;
-    background-color:white;
-    line-height: 65px;
-    text-transform: uppercase;
-    text-align: center;
+.comments{
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
 }
+.why{
+    font-size: 20px;
+    color: #5c5c5c;
+}
+.swag{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #060508;
+}
+.content{
+    margin-top: 70px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+#children{
+    width: 400px;
+    height: 400px;
+}
+.items{
+    display: flex;
+    flex: 45%;
+    flex-flow: column wrap;
+    justify-content: space-between;
 
-
-.container{
-    position: relative;
-    max-width: 1167px;
-    padding: 0 15px;
-    margin: 0 auto;
-
+}
+.item-text{
+    padding-top: 20px;
 }
