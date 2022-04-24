@@ -45,6 +45,11 @@ header{
 .main2{
     background-color: white;
 }
+.main3{
+
+    background-color: white;
+}
+
 #hello{
     position: relative;
     width: 100%;
@@ -164,4 +169,100 @@ h2{
 }
 .item-text{
     padding-top: 20px;
+}
+.sale{
+    margin-top: 40px;
+    font-size: 40px;
+
+    font-weight: bold;
+    color: #060508;
+    text-transform: uppercase;
+}
+.saleoffers{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.offers{
+    font-size: 20px;
+    color: #5c5c5c;
+    width: 40%;
+    margin-top: 40px;
+    font-family: "Vazirmatn", sans-serif;
+}
+.offers_title{
+    margin-top: 20px;
+}
+.take_sale{
+    font-size: 26px;
+    color: #5c5c5c;
+    margin-top: 40px;
+    font-family: "Vazirmatn", sans-serif;
+}
+.forform{
+    margin-top: 40px;
+
+    width: 60%;
+
+}
+.form{
+
+}
+.name{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.penis{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.agree{
+    margin:auto;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 120px;
+}
+.sub1{
+    justify-self: center;
+}
+input[name='name1']{
+    border: 2px solid grey;
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    margin: auto;
+    font-size: 18px;
+}
+input[name='penis']{
+    border: 2px solid grey;
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    margin: auto;
+    font-size: 18px;
+}
+input[name='agree'] {
+    border: 2px solid grey;
+    height: 25px;
+    font-size: 18px;
+}
+.name{
+
+}
+.agreements{
+    font-size: 20px;
+    color: #5c5c5c;
+    font-family: "Vazirmatn", sans-serif;
+}
+.sub1{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+input[name='sub1'] {
+    border-radius: 7px;
+    height: 45px;
+    width: 50%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
 }
