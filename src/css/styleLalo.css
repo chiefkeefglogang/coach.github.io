@@ -151,6 +151,7 @@ h2{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    width: 55%;
 }
 .icon{
     width: 50px;
@@ -202,7 +203,7 @@ h2{
 }
 .forform{
     margin-top: 40px;
-    width: 45%;
+    width: 55%;
 }
 .name{
     margin-top: 10px;
@@ -220,7 +221,7 @@ h2{
 }
 input[name='name1']{
     border: 2px solid grey;
-    width: 100%;
+    width: 90%;
     height: 45px;
     border-radius: 7px;
     margin: auto;
@@ -228,7 +229,7 @@ input[name='name1']{
 }
 input[name='penis']{
     border: 2px solid grey;
-    width: 100%;
+    width: 90%;
     height: 45px;
     border-radius: 7px;
     margin: auto;
