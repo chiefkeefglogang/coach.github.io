@@ -165,10 +165,10 @@ h2{
     flex: 45%;
     flex-flow: column wrap;
     justify-content: space-between;
-
 }
 .item-text{
     padding-top: 20px;
+    font-size: 15px;
 }
 .sale{
     margin-top: 40px;
@@ -179,9 +179,10 @@ h2{
     text-transform: uppercase;
 }
 .saleoffers{
+    width: 100%;
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 .offers{
     font-size: 20px;
@@ -201,26 +202,18 @@ h2{
 }
 .forform{
     margin-top: 40px;
-
-    width: 60%;
-
-}
-.form{
-
+    width: 45%;
 }
 .name{
     margin-top: 10px;
-    margin-left: 120px;
 }
 .penis{
     margin-top: 10px;
-    margin-left: 120px;
 }
 .agree{
     margin:auto;
     margin-top: 40px;
     display: flex;
-    margin-left: 120px;
 }
 .sub1{
     justify-self: center;
@@ -246,16 +239,12 @@ input[name='agree'] {
     height: 25px;
     font-size: 18px;
 }
-.name{
-
-}
 .agreements{
     font-size: 20px;
     color: #5c5c5c;
     font-family: "Vazirmatn", sans-serif;
 }
 .sub1{
-    margin-left: 120px;
     margin-top: 40px;
 }
 input[name='sub1'] {
