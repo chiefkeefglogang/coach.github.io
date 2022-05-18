@@ -182,6 +182,7 @@ h2{
     text-transform: uppercase;
 }
 .saleoffers{
+    padding-bottom:30px ;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -379,7 +380,6 @@ input[name='agree'] {
     display: flex;
     justify-content: space-between;
     border:1px solid white;
-    width: 100%;
     height: 200px;
 }
 .contact{
